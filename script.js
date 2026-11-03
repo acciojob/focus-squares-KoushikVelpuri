@@ -7,7 +7,7 @@ boxes.forEach((square)=>{
 	})
 	square.addEventListener('mouseout',()=>{
 		boxes.forEach((square)=>{
-			square.style.backgtoundColor = `#E6E6FA`
+			square.style.backgroundColor = `#E6E6FA`
 		})
 	})
 })
